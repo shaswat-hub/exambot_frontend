@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import App from './App';
+import AppMain from './App';
+root.render(<AppMain />);
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import axios from "axios";
 
@@ -454,7 +455,7 @@ const Admin = () => {
   );
 };
 
-function App() {
+function AppMain() {
   return (
     <BrowserRouter>
       <Routes>
@@ -465,4 +466,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppMain;
