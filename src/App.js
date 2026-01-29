@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import AppMain from './App';
-root.render(<AppMain />);
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import axios from "axios";
 
